@@ -29,7 +29,7 @@
     	with open("./processed_mon_data_closed_world.pkl", "rb")
     ```
     
-5. Run the model. Note that due to RAM limitations, each scenario must be executed separately.
+5. Run the model. Note that due to RAM error, each scenario must be executed separately.
 
 ## Contributors
 | <img width=150px src="https://github.com/sujinRo.png"/> | <img width=150px src="https://github.com/zziyuni.png"/> | <img width=150px src="https://github.com/hyunihs.png"/> | <img width=150px src="https://github.com/suhhyun524.png"/> | <img width=150px src="https://github.com/yunji118.png"/> |
