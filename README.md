@@ -12,7 +12,7 @@
     └── model_implementation.ipynb
 ```
 
-## 💫 How To Use
+## ✨ How To Use
 
 1. Download the files `data_preprocessing.ipynb` and `model_implementation.ipynb`.
 2. Upload the files `mon_standard.pkl` and `unmon_standard10_3000.pkl` to Colab and set their paths in `data_preprocessing.ipynb`
@@ -31,7 +31,7 @@
     
 5. Run the model. Note that due to RAM error, each scenario must be executed separately.
 
-## ✨ Contributors
+## 🫧 Contributors
 | <img width=150px src="https://github.com/sujinRo.png"/> | <img width=150px src="https://github.com/zziyuni.png"/> | <img width=150px src="https://github.com/hyunihs.png"/> | <img width=150px src="https://github.com/suhhyun524.png"/> | <img width=150px src="https://github.com/yunji118.png"/> |
 | --- | --- | --- | --- | --- |
 | 노수진 | 윤지윤 | 이정현 | 최수현 | 하윤지 |
