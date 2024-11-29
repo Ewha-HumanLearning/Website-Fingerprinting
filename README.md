@@ -22,7 +22,7 @@
     unmon_path = "./unmon_standard10_3000.pkl"
     ```
     
-3. Run the preprocessing code.
+3. Run the preprocessing code and download the preprocessed data.
 4. Upload the preprocessed data to Colab. Set the file path in `model_implementation.ipynb`:
     
     ```sql
