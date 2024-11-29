@@ -26,7 +26,7 @@
 4. Upload the preprocessed data to Colab. Set the file path in `model_implementation.ipynb`:
     
     ```sql
-    	with open("./processed_mon_data_closed_world.pkl", "rb")
+    with open("./processed_mon_data_closed_world.pkl", "rb")
     ```
     
 5. Run the model. Note that due to RAM error, each scenario must be executed separately.
