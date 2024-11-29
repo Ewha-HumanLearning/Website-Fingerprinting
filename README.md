@@ -28,6 +28,12 @@
     ```sql
     with open("./processed_mon_data_closed_world.pkl", "rb")
     ```
+    ```sql
+    with open("./processed_binary_data_open_world.pkl", "rb")
+    ```
+    ```sql
+    with open("./processed_multiclass_data_open_world.pkl", "rb")
+    ```
     
 5. Run the model. Note that due to RAM error, each scenario must be executed separately.
 
