@@ -1,6 +1,10 @@
 # 👾 Website-Fingerprinting
 2024-02 Machine Learning
 
+## 📝 Problem Definition
+Website fingerprinting is a powerful technique used to identify and categorize specific websites by analyzing distinctive patterns in network traffic. This method allows attackers to recognize particular websites a user visits based on traffic characteristics, even without direct access to the user's device or browser. Such fingerprinting poses a significant privacy threat, especially in anonymizing networks like Tor, which are designed to mask users' identities and protect against surveillance. However, fingerprinting techniques can undermine the anonymity provided by networks like Tor, enabling malicious actors to infer users' browsing activities, thereby compromising their privacy and anonymity.
+
+
 ## 🌲 Structure
 
 ```sql
@@ -36,6 +40,18 @@
     ```
     
 5. Run the model. Note that due to RAM error, each scenario must be executed separately.
+
+    Note: If you mount Google Drive to Colab, use the following code:
+     ```sql
+     from google.colab import drive
+     drive.mount('/content/drive')
+     ```
+     Modify the file path appropriately.
+    ```sql
+    with open("./drive/MyDrive/processed_binary_data_open_world.pkl", "rb")
+    ```
+   
+
 
 ## 🫧 Contributors
 | <img width=150px src="https://github.com/sujinRo.png"/> | <img width=150px src="https://github.com/zziyuni.png"/> | <img width=150px src="https://github.com/hyunihs.png"/> | <img width=150px src="https://github.com/suhhyun524.png"/> | <img width=150px src="https://github.com/yunji118.png"/> |
