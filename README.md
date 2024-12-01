@@ -12,7 +12,7 @@
     └── model_implementation.ipynb
 ```
 
-## ✨ How To Use
+## ✨ How To Run
 
 1. Download the files `data_preprocessing.ipynb` and `model_implementation.ipynb`.
 2. Upload the files `mon_standard.pkl` and `unmon_standard10_3000.pkl` to Colab and set their paths in `data_preprocessing.ipynb`
