@@ -13,12 +13,14 @@ Website fingerprinting is a powerful technique used to identify and categorize s
 ├── data
 │   └── data_preprocessing.ipynb
 └── model
-    └── model_implementation.ipynb
+    ├── Closed_World.ipynb
+    ├── Open_World_binary.ipynb
+    └── Open_World_multiclass.ipynb
 ```
 
 ## ✨ How To Run
 
-1. Download the files `data_preprocessing.ipynb` and `model_implementation.ipynb`.
+1. Download the files: `data_preprocessing.ipynb` , `Closed_World.ipynb` , `Open_World_binary.ipynb` , `Open_World_multiclass.ipynb`
 2. Upload the files `mon_standard.pkl` and `unmon_standard10_3000.pkl` to Colab and set their paths in `data_preprocessing.ipynb`
     
     ```sql
@@ -27,7 +29,7 @@ Website fingerprinting is a powerful technique used to identify and categorize s
     ```
     
 3. Run the preprocessing code and download the preprocessed data.
-4. Upload the preprocessed data to Colab. Set the file path in `model_implementation.ipynb`:
+4. Upload the preprocessed data to Colab. Set the file path in `Closed_World.ipynb` , `Open_World_binary.ipynb` , `Open_World_multiclass.ipynb`:
     
     ```sql
     with open("./processed_mon_data_closed_world.pkl", "rb")
@@ -39,7 +41,7 @@ Website fingerprinting is a powerful technique used to identify and categorize s
     with open("./processed_multiclass_data_open_world.pkl", "rb")
     ```
     
-5. Run the model. Note that due to RAM error, each scenario must be executed separately.
+5. Run the model.
 
     Note: If you mount Google Drive to Colab, use the following code:
      ```sql
